@@ -198,3 +198,17 @@ padding: 1rem 0 1rem 3rem;
 .footer-link:active{
   color: #ea4335;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .search-menu {
+    width: 75%;
+  }
+
+  html {
+    font-size: 60%;
+  }
+}
